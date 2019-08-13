@@ -8,7 +8,8 @@ Next release
 Changes
 -------
 
-TBA
+* Treat a ``Row`` as a ``Dashboard`` panel
+* Update ``Row``, ``Graph``, and ``Text`` panels to use GridPos
 
 0.5.4 (2019-08-30)
 =======
