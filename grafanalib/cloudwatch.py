@@ -51,10 +51,10 @@ class CloudwatchTarget(object):
             "region": self.region,
             "returnData": False,
             "statistics": self.statistics
-        }.update(self.dimensions)
+        }
 
     def __checkParameters(self):
-        self.__checDimensions()
+        self.__checkDimensions()
         self.__checkNamespace()
         self.__checkRegion()
 
